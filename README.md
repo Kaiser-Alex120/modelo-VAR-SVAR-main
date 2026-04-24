@@ -3,7 +3,7 @@
 
 <img width="1408" height="768" alt="Gemini_Generated_Image_qzi4nzqzi4nzqzi4" src="https://github.com/user-attachments/assets/8bee7d59-4fe6-4c38-82a8-6d4c959498e3" />
 
-> Material para elaborar modelos VAR y SVAR con datos macroeconómicos del Perú.
+> Material para elaborar modelos VAR y SVAR con datos macro
 
 ## 📋 Descripción
 
@@ -72,4 +72,4 @@ pip install -r requirements.txt
 
 ---
 
-**Autor:** Alex Simeon Bustillos | Centro de Análisis Económico (Perú, 2026)
+**Autor:** Alex Simeon Bustillos (Perú, 2026)
