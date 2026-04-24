@@ -18,6 +18,8 @@ Este repositorio contiene un pipeline completo para el análisis de series tempo
 
 ```
 modelo-VAR-SVAR/
+---tutorial
+  -tutorial_api
 ├── 02_preparacion_data.ipynb    # Limpieza y preparación de datos
 ├── 03_estacionariedad.ipynb     # Pruebas de estacionariedad (ADF, KPSS)
 ├── 04_var_svar.ipynb            # Estimación VAR/SVAR y diagnósticos
@@ -46,12 +48,13 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # 3. Ejecutar notebooks en orden:
+#    01-tutorial_api
 #    02_preparacion_data.ipynb
 #    03_estacionariedad.ipynb
 #    04_var_svar.ipynb
 ```
 
-## 📓 Notebooks
+##  Notebooks
 
 | Notebook | Contenido |
 |----------|-----------|
@@ -59,11 +62,11 @@ pip install -r requirements.txt
 | **03_estacionariedad.ipynb** | Pruebas ADF, KPSS, Zivot-Andrews |
 | **04_var_svar.ipynb** | Estimación VAR, diagnósticos, IRF, FEVD |
 
-## 📦 Requisitos
+##  Requisitos
 
 - Python ≥ 3.10
 - pandas, numpy, statsmodels, matplotlib, seaborn
 
 ---
 
-**Autor:** DataPolis | Centro de Análisis Económico (Perú, 2026)
+**Autor:** Alex Simeon Bustillos | Centro de Análisis Económico (Perú, 2026)
